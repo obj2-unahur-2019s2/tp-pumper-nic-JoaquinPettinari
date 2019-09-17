@@ -4,10 +4,6 @@ public class Molleja extends Hamburguesa{
     Hamburguesa hamburguesa;
 
     public Molleja(Hamburguesa hamburguesa){
-        setHamburguesa(hamburguesa);
-    }
-
-    public void setHamburguesa(Hamburguesa hamburguesa){
         this.hamburguesa = hamburguesa;
     }
 

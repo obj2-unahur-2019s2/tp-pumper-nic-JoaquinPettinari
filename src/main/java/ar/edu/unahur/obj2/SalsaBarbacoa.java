@@ -5,15 +5,11 @@ public class SalsaBarbacoa extends PapaFrita {
     PapaFrita papita;
 
     public SalsaBarbacoa(PapaFrita papita) {
-        setPapita(papita);
+        this.papita = papita;
     }
 
     public PapaFrita getPapita() {
         return papita;
-    }
-
-    public void setPapita(PapaFrita papita) {
-        this.papita = papita;
     }
 
     @Override

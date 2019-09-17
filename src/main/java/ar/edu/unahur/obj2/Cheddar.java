@@ -5,15 +5,11 @@ public class Cheddar extends PapaFrita {
     PapaFrita papita;
 
     public Cheddar(PapaFrita papita) {
-        setPapita(papita);
+        this.papita = papita;
     }
 
     public PapaFrita getPapita() {
         return papita;
-    }
-
-    public void setPapita(PapaFrita papita) {
-        this.papita = papita;
     }
 
     @Override

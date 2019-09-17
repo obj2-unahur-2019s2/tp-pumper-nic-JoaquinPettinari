@@ -35,4 +35,6 @@ public class HamburguesaCarneTest {
         carne.agregarMedallon();
         Assert.assertEquals(350, carne.getPrecio());
     }
+
+
 }

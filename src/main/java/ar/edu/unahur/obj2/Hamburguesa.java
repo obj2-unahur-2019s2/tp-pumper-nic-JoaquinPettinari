@@ -5,7 +5,8 @@ public abstract class Hamburguesa {
 
     public void agregarMedallon(){
         if(medallonesExtra <= 2){medallonesExtra++;}
-        else System.out.println("No se pueden agregar mas medallones");
+        else throw new RuntimeException("Tiene que ser maximo 3 medallones extras");
+
     }
 
     protected int getMedallonesExtra() {

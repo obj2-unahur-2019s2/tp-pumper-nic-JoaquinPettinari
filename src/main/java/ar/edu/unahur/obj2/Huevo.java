@@ -4,10 +4,6 @@ public class Huevo extends Hamburguesa {
     Hamburguesa hamburguesa;
 
     public Huevo(Hamburguesa hamburguesa){
-        setHamburguesa(hamburguesa);
-    }
-
-    public void setHamburguesa(Hamburguesa hamburguesa){
         this.hamburguesa = hamburguesa;
     }
 

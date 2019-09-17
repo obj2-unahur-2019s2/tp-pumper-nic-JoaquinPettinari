@@ -4,10 +4,6 @@ public class CebollaCaramelizada extends Hamburguesa {
     Hamburguesa hamburguesa;
 
     public CebollaCaramelizada(Hamburguesa hamburguesa){
-        setHamburguesa(hamburguesa);
-    }
-
-    public void setHamburguesa(Hamburguesa hamburguesa){
         this.hamburguesa = hamburguesa;
     }
 
